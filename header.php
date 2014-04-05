@@ -57,7 +57,7 @@
 <?php get_search_form(); ?>
 <ul id="menu"> 
 
-  <li><a href="#" class="drop">Radcircle <span class="gray">&#9662;</span></a>  
+  <li><a href="#" class="drop">Info <span class="gray">&#9662;</span></a>  
   <div class="dropdown_5columns menufade">
 
 
@@ -73,9 +73,9 @@
       </div>
     </li> 
 
-    <li><a href="#" class="drop">Music <span class="gray">&#9662;</span></a>  
+    <li><a href="#" class="drop">Find Music <span class="gray">&#9662;</span></a>  
     <div class="dropdown_5columns menufade">            
-    <p class="menutitle">Discover rad music.</p>
+    <p class="menutitle">Discover all kinds of music.</p>
 
     <div class="genre-container">
     <ul class="radcircle-edm">

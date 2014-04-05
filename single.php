@@ -29,7 +29,7 @@ else { echo '<span style="display:none">"'.get_the_title().'" is the latest post
 			<?php the_content(); ?>
 		</div>
 
-				<div class="other-songs"><p>More rad music right below.</p></div>
+				<div class="other-songs"><p>Discover more rad music right below.</p></div>
 				<div class="previous-or-next">
 					<div class="previous-post"><p><?php previous_post_link('%link', '%title', TRUE); ?></p></div>
 					<div class="next-post"><p><?php next_post_link('%link', '%title', TRUE); ?></p></div>
@@ -69,9 +69,3 @@ else { echo '<span style="display:none">"'.get_the_title().'" is the latest post
 </div>
 
 <?php get_footer(); ?>
-
-
-
-
-
-
