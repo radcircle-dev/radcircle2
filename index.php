@@ -33,7 +33,6 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 560
 
 	<div class="author-picture"> <?php echo get_avatar( get_the_author_meta( 'ID' ), 64 ); ?> </div>
 	<div class="author-name"> By <?php the_author() ?> </div>
-</div>
 
 	<div class="date-411"> 
 		<h3 class="day-num"> <?php the_time('d') ?> </h3> <!-- numerical day, with leading zero 01 - 24 for example -->
