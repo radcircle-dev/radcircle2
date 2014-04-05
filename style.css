@@ -74,12 +74,14 @@ h1 {
     font-weight:bold;
     font-family: 'Open Sans', Tahoma, Helvetica, Arial, sans-serif;
     display:inline;
+    text-rendering: optimizeLegibility;
 }
 
 h2 {
     color:#fff;
     font-weight:bold;
     font-family: 'Open Sans', Tahoma, Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility;
 }
 
 p {
@@ -89,6 +91,7 @@ p {
     line-height:34px;
     padding-bottom:15px;
     font-weight: 300;
+    text-rendering: optimizeLegibility;
 }
 
 a {color:#77C4D3}
@@ -232,6 +235,7 @@ a:visited {color:#77C4D3}
     text-align:center;
     color: #222;
     text-shadow: 0px 2px 3px #555;
+    text-rendering: optimizeLegibility;
 }
 
 ul li .radcirclelinks {display:inline-block;float:left;}
@@ -251,6 +255,7 @@ ul li .radcirclelinks {display:inline-block;float:left;}
     -o-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    text-rendering: optimizeLegibility;
 }
 
 .radcirclelinks a:hover{
@@ -279,6 +284,7 @@ ul li .radcirclelinks {display:inline-block;float:left;}
     font-weight:300 !important;
     color:#111 !important;
     letter-spacing:-1px !important;
+    text-rendering: optimizeLegibility;
 }
 
 .radcircle-edm li {padding:10px !important;}
@@ -414,10 +420,11 @@ form{
         clear:both;
         margin-top:25px;
         font-size:16px;
-          text-decoration:none;
-          font-weight:bold;
-          font-family: 'Open Sans', Tahoma, Helvetica, Arial, sans-serif;
-          color:#000;
+        text-decoration:none;
+        font-weight:bold;
+        font-family: 'Open Sans', Tahoma, Helvetica, Arial, sans-serif;
+        color:#000;
+        text-rendering: optimizeLegibility;
     }
 
         #footer a {
@@ -476,6 +483,7 @@ form{
         color:#111;
         font-size:18px;
         font-weight:300;
+        text-rendering: optimizeLegibility;
     }
 
     .footer-cats ul li {color:#333745;}
