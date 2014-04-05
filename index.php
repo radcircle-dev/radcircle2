@@ -5,11 +5,11 @@
 
 	<div id="randbox"><div class="attn center">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Radcircle - Main -->
+<!-- Radcircle - index main full width ad -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
+     style="display:inline-block;width:970px;height:90px"
      data-ad-client="ca-pub-9545787544514574"
-     data-ad-slot="2566131958"></ins>
+     data-ad-slot="8921573154"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -33,6 +33,7 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 560
 
 	<div class="author-picture"> <?php echo get_avatar( get_the_author_meta( 'ID' ), 64 ); ?> </div>
 	<div class="author-name"> By <?php the_author() ?> </div>
+</div>
 
 	<div class="date-411"> 
 		<h3 class="day-num"> <?php the_time('d') ?> </h3> <!-- numerical day, with leading zero 01 - 24 for example -->
