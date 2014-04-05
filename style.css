@@ -640,8 +640,8 @@ form{
 .post_container_titles {
     background-color: rgba(0, 0, 0, 0.95);
     color: #FFFFFF;
-    font-family: 'Open Sans', Helvetica 'Neue', Helvetica, Arial, sans-serif;
-    font-weight: 800;
+    font-family: Helvetica 'Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
     padding: 2px 5px 2px 5px;
     font-size: 42px;
     line-height: 48px;
