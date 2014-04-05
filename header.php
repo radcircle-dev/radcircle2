@@ -19,10 +19,8 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-37018915-1', 'radcircle.com');
   ga('send', 'pageview');
-
 </script>
 
 
@@ -53,7 +51,6 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
-
 <div id="container">
     <div id="navigation"> <!-- Start Navigation Bar -->
 <a href="http://radcircle.com"><img src="http://radcircle.com/images/Radcircle-Logo-50x50.png" width="60" height="60" alt="Radcircle Logo" class="fl fade"></a>
@@ -61,7 +58,6 @@
 <?php get_search_form(); ?>
 <ul id="menu"> 
 
-    
   <li><a href="#" class="drop">Radcircle <span class="gray">&#9662;</span></a>  
   <div class="dropdown_5columns menufade">
 
