@@ -2,10 +2,11 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<title>
- <?php wp_title('|',true,'right'); ?>
- <?php bloginfo('name'); ?>
- </title>
+
+  <title>
+    <?php wp_title('|',true,'right'); ?>
+    <?php bloginfo('name'); ?>
+  </title>
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
@@ -22,8 +23,6 @@
   ga('create', 'UA-37018915-1', 'radcircle.com');
   ga('send', 'pageview');
 </script>
-
-
 
 <!-- user agent -->
 
