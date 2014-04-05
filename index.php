@@ -30,8 +30,10 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 560
 <div class="post_container_date">
 
 <div class="post-411">
+
 	<div class="author-picture"> <?php echo get_avatar( get_the_author_meta( 'ID' ), 64 ); ?> </div>
 	<div class="author-name"> By <?php the_author() ?> </div>
+
 	<div class="date-411"> 
 		<h3 class="day-num"> <?php the_time('d') ?> </h3> <!-- numerical day, with leading zero 01 - 24 for example -->
 		<h3 class="month-year"> <?php the_time('M Y') ?> </h3> <!-- Month abbrev. and year -->
@@ -39,7 +41,7 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 560
 	</div>
 	
 	
-</div>
+</div> <!-- end div for author picture and date on home page -->
 </div>
 
 <div class="post_container_titles"><a href="<?php echo get_permalink(); ?>"><?php the_title();?></a>

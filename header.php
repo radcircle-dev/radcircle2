@@ -73,7 +73,7 @@
       </div>
     </li> 
 
-    <li><a href="#" class="drop">Find Music <span class="gray">&#9662;</span></a>  
+    <li><a href="#" class="drop">Discover Music <span class="gray">&#9662;</span></a>  
     <div class="dropdown_5columns menufade">            
     <p class="menutitle">Discover all kinds of music.</p>
 
