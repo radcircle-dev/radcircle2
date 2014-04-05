@@ -1064,35 +1064,6 @@ overflow:hidden;}
     margin-bottom:6px;
 }
 
-.attn {
-    max-width: 850px;
-    font-size:48px;
-    font-weight:100;
-    font-family: 'Lato', Helvetica, Arial, sans-serif;
-    margin:5px auto 5px auto;
-    letter-spacing:-2px;
-}
-    .attn a{
-        color:#fff;
-        text-decoration:none;
-        padding:0 5px 0 5px;
-                -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
-    }
-
-        .attn a:hover {
-            color:#888;
-          -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
-        }
-
-
 .featured-red {
     width:275px;
     font-size:48px;
