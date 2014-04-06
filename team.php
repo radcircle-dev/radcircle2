@@ -104,7 +104,7 @@ require_once('wp-load.php');
 		<h1>Marcos Assor</h1>
 		<p>Editorials</p></li>
 
-		<li><img src="images/team/ben-bw.jpg">
+		<li><img src="images/team/ben-bw.png">
 		<h1>Ben Strassman</h1>
 		<p>Editorials</p></li>
 
