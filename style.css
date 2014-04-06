@@ -4,12 +4,15 @@ Theme URI: http://www.radcircle.com
 Description: The next generation of Radcircle. Revolutionary. Reimagined.
 Author: Mohammad Azib
 Author URI: http://mohammadazib.com
-Version: 2.3 (last major change - team.php)
+Version: 2.3.1 (last major change - style.css)
 */
 
 /* 
 
-Feb 7 X 2014 - Changed the homepage box style, upgraded single.php post look, fixed some design inconsistensies */
+Feb 7 X 2014 - Changed the homepage box style, upgraded single.php post look, fixed some design inconsistensies 
+Apr 7 x 2014 - reduced amount of requests from homepage, imports in style, minifications, changes to copy, date change
+
+*/
 
 
 /* 
@@ -45,6 +48,9 @@ Feb 7 X 2014 - Changed the homepage box style, upgraded single.php post look, fi
 
 body {background-color:#111;}
 #container {width:1024px;height:auto;overflow:hidden;margin-left:auto;margin-right:auto;}
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,900);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
 
 .center {margin-left:auto;margin-right:auto;text-align:center;}
 .fl {float:left;}
@@ -240,7 +246,7 @@ a:visited {color:#77C4D3}
 
 ul li .radcirclelinks {display:inline-block;float:left;}
 
-.radcirclelinks a{
+.radcirclelinks a {
     font-family: 'Lato', Calibri, Arial, sans-serif !important;
     font-size:32px !important;
     letter-spacing:1px !important;
@@ -258,7 +264,7 @@ ul li .radcirclelinks {display:inline-block;float:left;}
     text-rendering: optimizeLegibility;
 }
 
-.radcirclelinks a:hover{
+.radcirclelinks a:hover {
  background: #111 !important;
  color:#fff !important;
      -webkit-transition: all 0.5s ease-in-out;
@@ -593,7 +599,7 @@ form{
     font-family: 'Lato', Helvetica 'Neue', Helvetica, Arial, sans-serif;
     font-weight: 900;
     font-size: 60px;
-    color: #333745;
+    color: #333;
     height: 70px;
     line-height: 70px;
     margin: 0px 5px 0px 5px;
